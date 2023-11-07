@@ -1,0 +1,79 @@
+.jobcardcont {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #7e858e;
+  border-radius: 20px;
+  width: 95%;
+}
+.linksty {
+  text-decoration: none;
+  outline: none;
+}
+.jobcardimg {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  margin-right: 20px;
+}
+.starcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.headinstarcont {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.mainjobcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.headingjobcard {
+  color: #fff;
+  font-size: 18px;
+}
+.iconcontainerrating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.staricon {
+  color: #fbbf24;
+}
+.parasty {
+  color: #fff;
+}
+.headingiconcont {
+  padding: 0px;
+  margin-top: 20px;
+}
+.internship {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+}
+.locationsalarycont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.locationintenshipcont {
+  display: flex;
+  flex-direction: row;
+}

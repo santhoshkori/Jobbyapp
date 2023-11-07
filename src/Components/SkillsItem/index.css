@@ -1,0 +1,30 @@
+.skillitemcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 786px) {
+  .skillitemcontainer {
+    width: 50%;
+  }
+}
+.skillparacont {
+  font-weight: 700;
+  margin-left: 15px;
+}
+@media screen and (max-width: 786px) {
+  margin-left: 0px;
+}
+.skillimgsty {
+  height: 60px;
+  width: 60px;
+}
+@media screen and (max-width: 786px) {
+  .skillimgsty {
+    height: 30px;
+    width: 30px;
+  }
+}

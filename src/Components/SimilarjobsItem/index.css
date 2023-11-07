@@ -1,0 +1,13 @@
+.simijocont {
+  background-color: #7e858e;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 30%;
+  margin-top: 10px;
+}
+@media screen and (max-width: 786px) {
+  .simijocont {
+    width: 90%;
+  }
+}

@@ -1,0 +1,18 @@
+.Lifeatcomcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.lifedesccont {
+  width: 70%;
+}
+
+@media screen and (max-width: 786px) {
+  .Lifeatcomcontainer {
+    flex-direction: column;
+  }
+  .lifedesccont {
+    width: 100%;
+  }
+}

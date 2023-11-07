@@ -1,0 +1,154 @@
+.jobspagemaincontainer {
+  background-color: #272727;
+
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 786px) {
+  .jobspagemaincontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.profileimgcontainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  border-radius: 10px;
+  padding: 15px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.Profilecontainer {
+  width: 30%;
+  padding: 35px;
+}
+@media screen and (max-width: 786px) {
+  .Profilecontainer {
+    width: 100%;
+  }
+}
+.jobprsondetsilheadingsty {
+  color: #6366f1;
+  font-size: 24px;
+}
+.typeemplyulsty {
+  color: #fff;
+  padding: 0px;
+  list-style: none;
+}
+.typeemplyulstyheading {
+  font-size: 20px;
+}
+.listemployeetype {
+  margin-bottom: 15px;
+}
+.jobslistcontainerdisplay {
+  padding-top: 35px;
+  width: 70%;
+  list-style: none;
+}
+@media screen and (max-width: 786px) {
+  .jobslistcontainerdisplay {
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+.retrybuttonP {
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  background-color: #4f46e5;
+  padding: 5px;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 5px;
+}
+.searchiconsmlg {
+  border-style: none;
+  background-color: none;
+}
+.retrybuttoncont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.inputjobcontainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 2px;
+  width: 40%;
+  border-radius: 8px;
+}
+@media screen and (max-width: 786px) {
+  .inputjobcontainer {
+    display: none;
+  }
+}
+.inputjobcontainersm {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 2px;
+  width: 80%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 786px) {
+  .inputjobcontainersm {
+    display: none;
+  }
+}
+.nojobscontainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.nojobscontainerfailure {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.disable {
+  display: none;
+}
+.inputelejob {
+  background-color: #272727;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+  height: 30px;
+  color: #fff;
+  width: 100%;
+}
+.jobsearchicon {
+  height: 30px;
+  width: 30px;
+  background-color: #f1f5f9;
+  color: #272727;
+}
+@media screen and (max-width: 786px) {
+  .nojobsimagepx {
+    width: 100%;
+  }
+}

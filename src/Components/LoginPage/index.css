@@ -1,0 +1,71 @@
+.loginmaincontainer {
+  background-color: #272727;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logoimgpx {
+  text-align: center;
+}
+.logincardcontainer {
+  padding: 45px;
+  background-color: #2c364c;
+  height: 480px;
+  width: 400px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 786px) {
+  .logincardcontainer {
+    width: 300px;
+    height: 500px;
+  }
+}
+.labelsty {
+  color: #fff;
+  font-weight: 600;
+}
+.labelstyerror {
+  color: red;
+  font-weight: 600;
+}
+.labelinputcontainer {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.passinputsty {
+  border-color: #475569;
+  background-color: transparent;
+  outline: none;
+  border-style: solid;
+  border-width: 2px;
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.loginbuttonpage {
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+  background-color: #6366f1;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px;
+  height: 40px;
+  font-weight: 700;
+}
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: center;
+}
